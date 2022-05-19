@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="dws-wrapper">
+		<div class="dws-form">
+			<label class="tab active" for="tab-1" title="Вкладка 1">Авторизация</label>
+			<label class="tab" for="tab-2" title="Вкладка 2">Регистрация</label>
+
+			<!-- Блок 1 -->
+			<form class="tab-form active">
+				<div class="box-input">
+					<input class="input" type="text" required>
+					<label>Введите E-mail</label>
+				</div>
+				<div class="box-input">
+					<input class="input" type="password" required>
+					<label>Введите пароль</label>
+				</div>
+				
+				<a href="#" class="button">Войти</a>
+				<ul class="social">
+					<li><a href="#"><div><i class="fa fa-facebook"></i></div></a></li>
+					<li><a href="#"><div><i class="fa fa-twitter"></i></div></a></li>
+					<li><a href="#"><div><i class="fa fa-instagram"></i></div></i></a></li>
+					<li><a href="#"><div><i class="fa fa-vk"></i></div></i></a></li>
+					<li><a href="#"><div><i class="fa fa-youtube"></i></div></a></li>
+				</ul>
+				<a href="#">Я забыл свой E-mail или пароль</a>
+			</form>
+
+			<!-- Блок 2 -->
+			<form class="tab-form">
+				<div class="box-input">
+					<input class="input" type="text" required>
+					<label>Введите E-mail адресс</label>
+				</div>
+				<div class="box-input">
+					<input class="input" type="text" required>
+					<label>Введите свое имя</label>
+				</div>
+				<div class="box-input">
+					<input class="input" type="password" required>
+					<label>Введите пароль</label>
+				</div>
+				<a href="#" class="button">Регистрация</a>
+
+				<div class="recover">
+					<input type="checkbox" id="ckbox">
+					<label for="ckbox">Ознакомлен(-а) и принимаю <a href="#">условия регистрации</a>.</label>
+				</div>
+
+				</ul>
+			</form>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
